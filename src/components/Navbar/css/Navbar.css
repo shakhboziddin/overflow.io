@@ -1,0 +1,141 @@
+.main {
+  z-index: 999999;
+  position: fixed;
+}
+
+.navbar {
+  width: 100%;
+  padding: 30px 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+  position: fixed;
+}
+.navbar a {
+  color: black;
+}
+.navbar .icon {
+  display: flex;
+  align-items: center;
+}
+.navbar .menu {
+  width: 100%;
+  margin-left: 20px;
+}
+.navbar .menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu ul li {
+  margin: 0 20px;
+  cursor: pointer;
+}
+.navbar .menu ul li:hover {
+  color: blueviolet;
+}
+.navbar .menu ul .down {
+  position: absolute;
+  top: 48px;
+  font-size: 12px;
+}
+.navbar .menu a:hover {
+  color: blueviolet;
+}
+
+.btn-trans {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.btn-trans:hover {
+  color: blueviolet;
+}
+
+.btn-blue {
+  background-color: rgb(4, 10, 181);
+  color: #fff;
+  padding: 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: blue;
+}
+
+.product {
+  padding-top: 109px;
+  width: 100%;
+  display: none;
+}
+.product .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.product .row {
+  border-left: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(190, 190, 190);
+  padding: 20px 30px;
+}
+.product .plans {
+  background-color: rgb(239, 239, 239);
+}
+.product a {
+  color: black;
+}
+.product .box {
+  margin: 15px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 9px;
+}
+.product .box:hover {
+  background-color: rgba(235, 235, 235, 0.585);
+}
+.product .over {
+  color: rgb(143, 140, 140);
+  font-size: 14px;
+}
+.product .icon {
+  margin-right: 10px;
+}
+.product .over1 {
+  padding: 13px;
+  margin: 23px 0;
+}
+.product .over2 {
+  padding: 13px;
+  margin: 20px 0;
+}
+.product .plan-box {
+  display: block;
+  padding: 30px 10px;
+  margin: 12px 0px;
+}
+.product .plan-box h4 {
+  margin-bottom: 10px;
+}
+.product .plan-box p {
+  line-height: 23px;
+  color: rgb(65, 64, 64);
+}
+.product .link {
+  color: blueviolet;
+}
+.product .link:hover {
+  color: black;
+}
+.product .integ {
+  margin: 11px;
+  padding: 9px;
+}/*# sourceMappingURL=Navbar.css.map */
