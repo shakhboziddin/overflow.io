@@ -1,6 +1,7 @@
 .home {
   padding-top: 110px;
   color: #161637;
+  background-color: #fff;
 }
 
 .container {
@@ -161,7 +162,67 @@
 .infinite .btn .icon {
   font-size: 17px;
 }
-.infinite :hover .icon {
-  padding: 0 2px;
-  font-size: 30px;
+
+.captivate {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.captivate .left-cont {
+  width: 43%;
+  padding: 40px;
+}
+.captivate .left-cont h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.captivate .left-cont p {
+  line-height: 26px;
+  margin: 30px 0;
+}
+.captivate .left-cont .btn {
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.captivate .left-cont .btn .icon {
+  font-size: 17px;
+  margin: 6px 3px;
+}
+.captivate .left-cont :hover .icon {
+  margin: 6px 5px;
+}
+.captivate .left2 {
+  width: 42%;
+}
+.captivate .right-cont {
+  width: 45%;
+}
+.captivate .right-cont img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.captivate .right-cont .publish {
+  width: 100%;
+}
+
+.pubishmain {
+  margin: 80px auto;
+}
+
+.swsection {
+  padding: 70px auto;
+  border: 1px solid #fff;
+}
+
+.swiper {
+  background-color: #f5f5f5;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 4px;
 }/*# sourceMappingURL=home.css.map */

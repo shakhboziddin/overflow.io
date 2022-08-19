@@ -6,6 +6,8 @@ import { GrBarChart } from 'react-icons/gr'
 import { AiOutlineRight } from 'react-icons/ai'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Swiperjs from '../../components/Swiper/Swiper'
+import Footer from '../../components/Footer/Footer'
 // images below
 import Partner1 from '../../images/image/amazon.svg'
 import Partner2 from '../../images/image/facebook.svg'
@@ -15,6 +17,8 @@ import Partner5 from '../../images/image/spotify.svg'
 import Partner6 from '../../images/image/yahoo.svg'
 import Invite from '../../images/image/invite.png'
 import Infinite1 from '../../images/image/infinte-1.svg'
+import captivate from '../../images/image/captivate.png'
+import Publish from '../../images/image/Publish.png'
 
 
 const Home = () => {
@@ -105,16 +109,63 @@ const Home = () => {
 
       </div>
       <div className="infinite">
-          <div className="img">
-            <img src={Infinite1} alt="" />
-          </div>
-          <div className="content">
-            <h1>Learn how Infinite Red uses Overflow to improve asynchronous communication with their clients.</h1>
-
-            <div className="btn"><Link to={""} className="see"> Read case study </Link> <AiOutlineRight className="icon" /></div>
-          </div>
+        <div className="img">
+          <img src={Infinite1} alt="" />
         </div>
+        <div className="content">
+          <h1>Learn how Infinite Red uses Overflow to improve asynchronous communication with their clients.</h1>
+
+          <div className="btn"><Link to={""} className="see"> See how </Link> <AiOutlineRight className="icon" /></div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="captivate" data-aos="fade-up">
+          <div className="left-cont">
+            <h1>Captivate your audience with breathtaking design presentations</h1>
+            <p>Keep your audience engaged from start to finish in design critique meetings with Overflow's interactive presentation features. Navigate between screens with ease using your mouse or keyboard. Zoom out for a bird's eye view of the user journey as a whole or switch to a rapid prototype view to focus on design details.</p>
+
+            <div className="btn"><Link to={""} className="see"> See how </Link> <AiOutlineRight className="icon" /></div>
+
+          </div>
+          <div className="right-cont">
+            <img src={captivate} alt="" />
+          </div>
+
+        </div>
+      </div>
+
+      <div className="captivate publishmain" data-aos="fade-up">
+        <div className="right-cont right2">
+          <img src={Publish} className="publish" alt="" />
+
+        </div>
+        <div className="left-cont left-short">
+          <h1>Publish, share, and get feedback</h1>
+          <p>Publish and share your user flow or design presentation online and allow your team and clients to navigate your work freely on any device and provide asynchronous design feedback.</p>
+
+          <div className="btn"><Link to={""} className="see"> See how </Link> <AiOutlineRight className="icon" /></div>
+
+        </div>
+
+      </div>
+
+      <section className='swsection'>
+        
+      <div className="container sw">
+        <div className="swiper">
+          <Swiperjs></Swiperjs>
+        </div>
+      </div>
+
+      </section>
+
+
+
+
+      <Footer></Footer>
     </div>
+
   )
 }
 
