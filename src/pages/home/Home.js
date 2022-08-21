@@ -154,7 +154,7 @@ const Home = () => {
         
       <div className="container sw">
         <div className="swiper">
-          <Swiperjs></Swiperjs>
+          <Swiperjs/>
         </div>
       </div>
 

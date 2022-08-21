@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from './components/Navbar/Navbar';
+import Signin from './pages/signin/Signin';
+import Login from './pages/login/Login';
 
 
 
@@ -16,6 +18,8 @@ root.render(
       <Navbar />
       <Routes>
         <Route exact path="/" element={<App />} />
+        <Route path='/sign-in' element={<Signin />} />
+        <Route path='/login' element={<Login/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

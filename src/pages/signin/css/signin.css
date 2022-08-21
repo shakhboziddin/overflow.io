@@ -1,0 +1,124 @@
+.signin {
+  width: 100%;
+}
+.signin .logo {
+  display: none;
+}
+.signin .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #fff;
+}
+.signin .container-fluid .left-row {
+  width: 30%;
+  background: #d5f3ff;
+  position: relative;
+  width: 481px;
+  height: 100vh;
+}
+.signin .container-fluid .left-row .logo2 {
+  position: absolute;
+  z-index: 999;
+  left: 20px;
+  top: 20px;
+}
+.signin .container-fluid .left-row h4 {
+  position: absolute;
+  z-index: 999;
+  top: 90px;
+  font-size: 26px;
+  font-weight: 500;
+  width: 60%;
+  left: 20px;
+  line-height: 40px;
+}
+.signin .container-fluid .left-row .img {
+  width: 481px;
+  height: 900px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: -50px;
+  top: -230px;
+}
+.signin .container-fluid .right-row {
+  width: 67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+}
+.signin .container-fluid .right-row h2 {
+  font-size: 37px;
+  margin-bottom: 40px;
+}
+.signin .container-fluid .right-row .inputs {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.signin .container-fluid .right-row .inputs .input {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+}
+.signin .container-fluid .right-row .inputs .input input {
+  padding: 10px;
+  width: 410px;
+  margin: 0 auto;
+}
+.signin .container-fluid .right-row .inputs .input .sm {
+  margin-bottom: 5px;
+}
+.signin .container-fluid .right-row .inputs .input .forgot {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.signin .container-fluid .right-row .inputs .sign-btn {
+  width: 410px;
+  padding: 12px;
+  background-color: #0071db;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.signin .container-fluid .right-row .or {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.signin .container-fluid .right-row .or .line {
+  width: 189px;
+  height: 1px;
+  background-color: rgba(175, 175, 175, 0.521);
+}
+.signin .container-fluid .right-row .google {
+  width: 410px;
+  padding: 12px;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  box-shadow: 0px 6px 6px -1px rgba(34, 60, 80, 0.2);
+  cursor: pointer;
+}
+.signin .container-fluid .right-row .google .gi {
+  font-size: 20px;
+}/*# sourceMappingURL=signin.css.map */
