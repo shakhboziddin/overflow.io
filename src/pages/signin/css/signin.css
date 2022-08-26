@@ -67,11 +67,11 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 40%;
+  width: 410px;
 }
 .signin .container-fluid .right-row .inputs .input input {
   padding: 10px;
-  width: 410px;
+  width: 100%;
   margin: 0 auto;
 }
 .signin .container-fluid .right-row .inputs .input .sm {

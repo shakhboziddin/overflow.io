@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;;
+  font-family: 'Inter', sans-serif;
+  ;
   background-color: #fff;
 }
 
@@ -9,19 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-*{
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   transition: .2s ease;
 }
-a, Link{
+
+a,
+Link {
   text-decoration: none;
   /* color: black; */
-} 
-ul,li{
+}
+
+ul,
+li {
   list-style-type: none;
 }
+
 /* Firefox */
 * {
   scrollbar-width: thin;
@@ -33,6 +45,7 @@ ul,li{
   width: 3px;
   width: 3px;
 }
+
 *::-webkit-scrollbar-track {
   border-radius: 5px;
   background-color: #DFE9EB;

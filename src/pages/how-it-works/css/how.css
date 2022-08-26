@@ -1,0 +1,527 @@
+* {
+  color: #161637;
+}
+
+.how {
+  width: 100%;
+  padding-top: 100px;
+  background-color: #fdfdfd;
+}
+.how .hero-1 {
+  background: #d5f3ff;
+  height: 293px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.how .hero-1 .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 35px;
+}
+.how .hero-1 .content h1 {
+  font-size: 53px;
+}
+.how .hero-1 .content button {
+  padding: 17px 30px;
+  border-radius: 5px;
+  color: #2c2c96;
+  border: 1px solid #3d3dc3;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.how .hero-1 .content button .icon {
+  font-size: 22px;
+}
+.how .hero-1 .content button:hover {
+  box-shadow: 0px 0px 1px 1px #3d3dc3 inset;
+}
+.how .hero-1 .dec1 {
+  left: -30px;
+  top: 80px;
+  position: absolute;
+  -webkit-animation: 3s deca1 infinite;
+          animation: 3s deca1 infinite;
+}
+.how .hero-1 .dec2 {
+  position: absolute;
+  top: 30px;
+  right: 300px;
+  -webkit-animation: 3s deca2 infinite;
+          animation: 3s deca2 infinite;
+}
+.how .hero-1 .dec3 {
+  position: absolute;
+  right: 0px;
+  top: 120px;
+  -webkit-animation: 3s deca3 infinite;
+          animation: 3s deca3 infinite;
+}
+.how .hero-1 .dec4 {
+  width: 90px;
+  height: 90px;
+  border-left: 60px solid #16b4f2;
+  border-radius: 50%;
+  border-right: 30px solid transparent;
+  transform: rotate(40deg);
+  position: absolute;
+  top: 300px;
+  left: 305px;
+  -webkit-animation: 3s deca4 infinite;
+          animation: 3s deca4 infinite;
+}
+.how .hero-1 .dec5 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ffb719;
+  position: absolute;
+  top: 310px;
+  right: 300px;
+  z-index: 0;
+  -webkit-animation: 3s deca5 infinite;
+          animation: 3s deca5 infinite;
+}
+@-webkit-keyframes deca1 {
+  0% {
+    top: 80px;
+  }
+  50% {
+    top: 90px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@keyframes deca1 {
+  0% {
+    top: 80px;
+  }
+  50% {
+    top: 90px;
+  }
+  100% {
+    top: 80px;
+  }
+}
+@-webkit-keyframes deca2 {
+  0% {
+    top: 30px;
+  }
+  50% {
+    top: 40px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+@keyframes deca2 {
+  0% {
+    top: 30px;
+  }
+  50% {
+    top: 40px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+@-webkit-keyframes deca3 {
+  0% {
+    top: 120px;
+  }
+  50% {
+    top: 130px;
+  }
+  100% {
+    top: 120px;
+  }
+}
+@keyframes deca3 {
+  0% {
+    top: 120px;
+  }
+  50% {
+    top: 130px;
+  }
+  100% {
+    top: 120px;
+  }
+}
+@-webkit-keyframes deca4 {
+  0% {
+    top: 300px;
+  }
+  50% {
+    top: 310px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+@keyframes deca4 {
+  0% {
+    top: 300px;
+  }
+  50% {
+    top: 310px;
+  }
+  100% {
+    top: 300px;
+  }
+}
+@-webkit-keyframes deca5 {
+  0% {
+    top: 310px;
+  }
+  50% {
+    top: 320px;
+  }
+  100% {
+    top: 310px;
+  }
+}
+@keyframes deca5 {
+  0% {
+    top: 310px;
+  }
+  50% {
+    top: 320px;
+  }
+  100% {
+    top: 310px;
+  }
+}
+@-webkit-keyframes modal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes modal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.how .hero-1 .modal {
+  position: absolute;
+  z-index: 99999999999;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(11, 11, 11, 0.871);
+  transform: translateX(0);
+  top: 0%;
+  -webkit-animation: 0.3s modal ease;
+          animation: 0.3s modal ease;
+  overflow: hidden;
+}
+.how .hero-1 .modal .video {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.how .hero-1 .modal .video .esc {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: #000000;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  transition: 0.4s ease;
+}
+.how .hero-1 .modal .video :hover {
+  background-color: grey;
+  color: #000000;
+}
+.how .step-1 {
+  width: 100%;
+  padding: 70px 0;
+}
+.how .step-1 .container {
+  width: 80%;
+  margin: auto;
+}
+.how .step-1 .container .row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.how .step-1 .container .row .box {
+  width: 40%;
+}
+.how .step-1 .container .row .box h4 {
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+.how .step-1 .container .row .box h1 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+.how .step-1 .container .row .box p {
+  font-size: 20px;
+  line-height: 29px;
+  width: 78%;
+}
+.how .step-1 .container .row .how-video {
+  width: 50%;
+}
+.how .step-1 .container .row .how-video video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #fbfbfb;
+}
+.how .step-1 .container .row-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 160px auto 130px 0;
+  align-items: center;
+}
+.how .step-1 .container .row-grid .card {
+  width: 80%;
+  margin: auto;
+}
+.how .step-1 .container .row-grid .card h2 {
+  font-size: 26px;
+  margin: 25px 0;
+}
+.how .step-1 .container .row-grid .card p {
+  font-size: 17px;
+  width: 80%;
+  line-height: 25px;
+}
+.how .step-2 {
+  width: 100%;
+  background-color: #fdfdfd;
+  margin: 100px auto;
+}
+.how .step-2 .container {
+  width: 79%;
+}
+.how .step-2 .container .header2 h3 {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.how .step-2 .container .header2 h1 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+.how .step-2 .container .header2 p {
+  font-size: 20px;
+  line-height: 29px;
+  width: 30%;
+}
+.how .step-2 .container .row-2 {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.how .step-2 .container .row-2 .contents {
+  width: 40%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.how .step-2 .container .row-2 .contents .layer {
+  width: 80%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.how .step-2 .container .row-2 .contents .layer .progress {
+  background-color: rgb(188, 187, 187);
+  width: 5px;
+  height: 96px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.how .step-2 .container .row-2 .contents .layer h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.how .step-2 .container .row-2 .contents .layer p {
+  font-size: 16px;
+  line-height: 23px;
+  width: 90%;
+}
+.how .step-2 .container .row-2 .contents :hover {
+  background: #fff;
+  cursor: pointer;
+}
+.how .step-2 .container .row-2 .video-2 {
+  width: 69%;
+}
+.how .step-2 .container .row-2 .video-2 video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.how .step-2 .container .how5 {
+  padding: 0px 0;
+}
+.how .step-2 .container .how5 .left-box {
+  width: 30%;
+}
+.how .step-2 .container .how5 .left-box h2 {
+  font-size: 27px;
+}
+.how .step-2 .container .how5 .left-box p {
+  font-size: 17px;
+  line-height: 28px;
+  margin: 13px 0;
+}
+.how .step-2 .container .how5 .left-box .doc {
+  padding: 10px;
+}
+.how .step-2 .container .how5 .left-box .doc div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.how .step-2 .container .how5 .left-box .doc div .icon {
+  font-size: 24px;
+  color: #2c2c96;
+}
+.how .feed .row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.how .feed .row-2 .img {
+  width: 50%;
+}
+.how .feed .row-2 .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.how .feed .row-2 .content {
+  width: 40%;
+}
+.how .feed .row-2 .content h3 {
+  font-size: 25px;
+}
+.how .feed .row-2 .content p {
+  font-size: 17px;
+  width: 60%;
+  margin: 20px 0;
+  line-height: 23px;
+}
+.how .step6 {
+  background-color: #fbfbfb;
+  width: 100%;
+}
+.how .step6 .step-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fbfbfb;
+}
+.how .step6 .step-6 .left-box {
+  width: 45%;
+}
+.how .step6 .step-6 .left-box .header-3 {
+  margin-bottom: 50px;
+}
+.how .step6 .step-6 .left-box .header-3 h1 {
+  font-size: 30px;
+}
+.how .step6 .step-6 .left-box .box-3 {
+  margin: 40px 0;
+}
+.how .step6 .step-6 .left-box .box-3 h2 {
+  font-size: 25px;
+}
+.how .step6 .step-6 .left-box .box-3 p {
+  font-size: 16px;
+  line-height: 23px;
+  margin: 10px 0;
+  width: 60%;
+}
+.how .step6 .step-6 .right-box {
+  width: 45%;
+}
+.how .step6 .step-6 .right-box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.how .design {
+  display: flex;
+  align-items: center;
+  margin: 70px auto;
+}
+.how .design .img {
+  position: relative;
+  left: 20px;
+  width: 65%;
+}
+.how .design .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.how .design .card {
+  position: absolute;
+  background-color: #fff;
+  right: 80px;
+  width: 32%;
+  padding: 60px;
+  border-radius: 7px;
+  gap: 30px;
+}
+.how .design .card h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.how .design .card .btn {
+  background-color: rgb(4, 10, 181);
+  color: #fff;
+  padding: 19px 25px;
+  border-radius: 4px;
+  margin: 30px 0px;
+}
+.how .design .card .btn:hover {
+  background-color: blue;
+}
+
+.border {
+  width: 100%;
+  height: 30px;
+  z-index: 99;
+  position: absolute;
+  background-color: #fdfdfd;
+}/*# sourceMappingURL=how.css.map */

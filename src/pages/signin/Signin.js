@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { } from '../../hooks/FirebaseLogin'
-import { getAuth, GoogleAuthProvider, signInWithPopup, FacebookAuthProvider, createUserWithEmailAndPassword } from "firebase/auth"
+import { getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword } from "firebase/auth"
 import { APP } from '../../firebase/Firebase'
 import { useNavigate } from 'react-router-dom';
 import IMG from '../../images/image/sign.svg'
@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom';
 const Signin = () => {
   const Auth = getAuth(APP)
   const provider = new GoogleAuthProvider()
-  const providerFacebook = new FacebookAuthProvider();
 
   // Google |
   const SingInWithGoogle = () => {

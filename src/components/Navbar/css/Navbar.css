@@ -2,6 +2,12 @@
 .main {
   z-index: 999;
   position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  border-bottom: 1px solid rgba(190, 190, 190, 0.837);
 }
 
 .navbar {
@@ -20,9 +26,12 @@
   display: flex;
   align-items: center;
 }
+.navbar .icon svg {
+  transform: scale(0.9);
+}
 .navbar .menu {
   width: 100%;
-  margin-left: 20px;
+  margin-left: 40px;
   font-size: 17px;
   display: flex;
 }
@@ -85,12 +94,15 @@
 .bg-pr {
   width: 100%;
   background-color: rgba(205, 205, 205, 0.896);
+  display: flex;
+  flex-direction: column;
 }
 
 .product {
   padding-top: 1px;
   width: 100%;
   background-color: #fff;
+  display: flex;
 }
 .product .container {
   display: grid;
@@ -101,7 +113,7 @@
 .product .row {
   border-left: 1px solid rgb(190, 190, 190);
   border-bottom: 1px solid rgb(190, 190, 190);
-  padding: 20px 30px;
+  padding: 20px 60px;
 }
 .product .plans {
   background-color: rgb(239, 239, 239);
@@ -110,9 +122,7 @@
   color: black;
 }
 .product .box {
-  margin: 15px;
   display: flex;
-  padding: 10px;
   align-items: center;
   border-radius: 9px;
 }
@@ -125,6 +135,7 @@
 }
 .product .icon {
   margin-right: 10px;
+  font-size: 20px;
 }
 .product .over1 {
   padding: 13px;
@@ -132,12 +143,11 @@
 }
 .product .over2 {
   padding: 13px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .product .plan-box {
   display: block;
   padding: 30px 10px;
-  margin: 12px 0px;
 }
 .product .plan-box h4 {
   margin-bottom: 10px;
@@ -153,7 +163,7 @@
   color: black;
 }
 .product .integ {
-  margin: 11px;
+  margin: 8px;
   padding: 9px;
 }
 

@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from './components/Navbar/Navbar';
 import Signin from './pages/signin/Signin';
-import Login from './pages/login/Login';
+import How from './pages/how-it-works/How-it-works';
 
 
 
@@ -19,7 +19,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<App />} />
         <Route path='/sign-in' element={<Signin />} />
-        <Route path='/login' element={<Login/>} />
+        <Route path='/how-it-works' element={<How />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
