@@ -62,7 +62,7 @@ const Signin = () => {
             <img src={IMG} className="img" alt="" />
           </div>
           <div className="right-row">
-            <h2>Sign in</h2>
+            <h2>Sign Up</h2>
 
             <div className="inputs">
               <div className="input">
@@ -72,14 +72,13 @@ const Signin = () => {
               <div className="input">
                 <div className="forgot">
                   <small>Password</small>
-                  <a href="">Forgot Password?</a>
                 </div>
                 <input className='email' type="password" onChange={(event) => { SetLoginPassword(event.target.value) }} />
               </div>
-              <button className='sign-btn' onClick={Login}>Sign In</button>
+              <button className='sign-btn' onClick={Login}>Sign Up</button>
             </div>
             <p className='or'><span className='line'></span>or<span className='line'></span></p>
-            <button className='google' onClick={SingInWithGoogle}> <FcGoogle className='gi' /> Sign in with Google</button>
+            <button className='google' onClick={SingInWithGoogle}> <FcGoogle className='gi' /> Sign Up with Google</button>
           </div>
         </div>
       </div>

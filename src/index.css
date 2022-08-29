@@ -4,16 +4,18 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   ;
-  background-color: #fff;
+  background-color: #fdfdfd !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background: #fdfdfd;
 }
 
 html {
   scroll-behavior: smooth;
+
 }
 
 * {

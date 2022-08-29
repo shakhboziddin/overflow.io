@@ -21,6 +21,14 @@ import update from '../../images/image/update.jpg'
 import design from '../../images/image/design.jpg'
 
 const How = () => {
+
+    const [main, setMain] = useState(false)
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setMain(true)
+        }, 1000);
+        return () => clearTimeout(timer);
+    }, []);
     const [modal, setModal] = useState()
 
     const btnClick = () => {
@@ -39,7 +47,7 @@ const How = () => {
     })
 
     return (
-        <div className='how'>
+        <div className='how' style={{ display: main ? 'block' : 'none' }}>
             <div className="hero-1">
                 <img src={img1} className="dec1" alt="" />
                 <img src={img2} className="dec2" alt="" />

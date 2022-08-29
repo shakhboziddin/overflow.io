@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -7,19 +7,21 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Navbar from './components/Navbar/Navbar';
 import Signin from './pages/signin/Signin';
 import How from './pages/how-it-works/How-it-works';
-
+import Download from './pages/download/Download';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route path='/sign-in' element={<Signin />} />
+        <Route path='/sign-up' element={<Signin />} />
         <Route path='/how-it-works' element={<How />} />
+        <Route path='/download' element={<Download />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -1,0 +1,106 @@
+.download {
+  padding: 100px 0;
+  width: 100%;
+  background: #fdfdfd;
+  color: #16163d;
+}
+.download .container {
+  width: 100%;
+  padding: 70px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-left: 170px;
+}
+.download .container .left-row {
+  width: 50%;
+}
+.download .container .left-row h1 {
+  font-size: 34px;
+}
+.download .container .left-row .main-p {
+  margin: 30px 0;
+  font-size: 17px;
+  line-height: 26px;
+  width: 85%;
+}
+.download .container .left-row .btns {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 40px 0;
+}
+.download .container .left-row .btns .btn {
+  background-color: rgb(4, 10, 181);
+  color: #fff;
+  padding: 19px 25px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  margin: 15px 0;
+}
+.download .container .left-row .btns .btn:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.download .container .left-row .btns .mac {
+  color: blue;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.download .container .left-row .min {
+  margin-top: 40px;
+  color: #717782;
+}
+.download .container .right-row {
+  width: 60%;
+}
+.download .how {
+  width: 100%;
+  display: flex;
+  background: #f8f8f8;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px auto;
+}
+.download .how .card {
+  width: 27%;
+  padding: 20px;
+}
+.download .how .card .header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+.download .how .card .min-cont {
+  padding: 0 30px;
+}
+.download .how .card .min-cont p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.download .how .card .min-cont .link {
+  margin: 20px 0;
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+  transition: 1s ease;
+}
+.download .trust {
+  width: 80%;
+  margin: 130px auto 30px auto;
+  background: #f8f8f8;
+  text-align: center;
+  padding: 70px;
+  border-radius: 10px;
+}
+.download .trust .imgs {
+  display: grid;
+  margin: 35px;
+  grid-template-columns: repeat(6, 1fr);
+}/*# sourceMappingURL=download.css.map */
