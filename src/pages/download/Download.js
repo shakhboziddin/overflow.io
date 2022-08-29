@@ -38,7 +38,7 @@ const Download = () => {
         <div className="left-row">
           <h1>Try Overflow for free</h1>
           <p className='main-p'>Overflow is a UX app that helps you create, edit, and share captivating user flow diagrams and stunning design presentations. Bring in your designs from your favorite design tool (Figma, Sketch, Adobe XD) and create beautiful interactive user flows to experience your user journey in just minutes. Work together with your team, and collaborate to build design presentations that communicate your designs to stakeholders with ease.</p>
-          <div className="btns"> className='icon'
+          <div className="btns">
             <button className='btn'>Download for Windows 🪟</button>
             <a className='mac'>Download for Mac</a>
           </div>
@@ -49,7 +49,7 @@ const Download = () => {
         </div>
       </div>
 
-      <div className="how">
+      <div className="how" data-aos="fade-up">
         <div className="card">
           <div className='header'>
             <h2><IoMdGitPullRequest className='icon1' /> How it Works</h2>
@@ -76,12 +76,12 @@ const Download = () => {
           </div>
           <div className="min-cont">
             <p>A step-by-step guide to help you build your first Overflow diagram or design presentation in minutes.</p>
-            <Link className='link' to={'/how-it-works'}>Learn More <AiOutlineRight className='icon' /> </Link>
+            <Link className='link' to={'/how-it-works'}>Learn More <AiOutlineRight /> </Link>
           </div>
         </div>
       </div>
 
-      <div className="trust">
+      <div className="trust" data-aos="fade-up">
         <p>Trusted by more than 500,000 designers and product managers across the globe</p>
 
         <div className="imgs">
